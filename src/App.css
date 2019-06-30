@@ -1,33 +1,84 @@
+.title{
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+}
+.tileTitle{
+  color: rgb(0,90,165);
+}
+.titleText{
+    color: rgb(0,90,165);
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+.container, .container-fluid {
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.check{
+  border: solid lightgrey;
 }
 
-.App-link {
-  color: #61dafb;
+.mainText{
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+.menuButton{
+  width: 600px;
+}
+.mainBody{
+  padding: 10px;
+}
+.grid{
+padding: 20px;
+
+}
+.tiles{
+  background-color: rgba(255,255,255, 0.7);
+  margin: 10px;
+  padding: 50px;
+}
+@keyframes noTransparency {
+0%   {background-color:rgba(255,255,255,0.7);}
+100% {background-color:rgba(255,255,255,1); }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tiles2{
+  background-color: rgba(255,255,255, 0.7);
+  margin: 10px;
+  width: 220px;
+  height: 180px;
+  border-radius: 5px;
+}
+.tiles2:hover{
+  animation-name: noTransparency;
+  animation-duration:0.5s;
+  animation-fill-mode: both;
+}
+.xxx{
+  flex: 1;
+  flex-wrap: wrap;
+  flex-basis: 10%;
+  flexDirection: 'row';
+  alignItems: 'center';
+  justifyContent: 'center';
+}
+.smallText{
+  font-size: 10pt;
+  font-weight: bold;
+  margin: 10px;
+  color: rgb(0,147,187);
+}
+
+.rt-thead {
+  font-weight: bold;
+}
+
+.ReactTable{
+  background-color: rgba(255,255,255,0.95);
 }
