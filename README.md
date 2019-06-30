@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 <br><br>
 Additional packages to install:<br>
+yarn add bootstrap<br>
 yarn add reactstrap<br>
 yarn add react-router-dom<br>
 yarn add react-table<br>
